@@ -7,7 +7,8 @@ const body = `Sosteniamo il centro e chiediamo che venga ritirata l'ordinanza nÂ
 const to =['segreteria.presidente@regione.sicilia.it','segreteria.ministro@minambiente.it','totomartellosindacolampedusa@gmail.com'] 
 //(#f57a32)
 
-const cc = 'freggidaniela@gmail.com'
+const cc = 'lampedusaturtlerescue@gmail.com'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -27,14 +28,14 @@ export default function Home() {
         />
       </div>
     
-      <h1 className=" fixed top-0 text-white text-3xl m-2">
+      <h1 className=" fixed top-0 text-white text-3xl m-4 text-center">
           Lampedusa Turtle Rescue
         </h1>
     
     
       <main className="fixed bottom-0 pb-4 pt-20	 text-center w-full" style={{'background':'linear-gradient(rgba(46,151,154,0), rgba(46,151,154,0.3), rgb(14 45 46))'}}>
      
-        <h1 className="text-white text-3xl m-2">
+        <h1 className="text-white text-3xl m-4">
           Firma le nostre petizioni per evitare la chiusura del centro
         </h1>
 
